@@ -10773,11 +10773,11 @@ textarea.form-control-lg {
 .footer {
   background-color: #121619;
   text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .footer_logo {
-  width: 10%;
+  width: 8rem;
 }
 
 .btn-secondary {
@@ -10824,29 +10824,33 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
-.blog-author, .blog-author_page, .blog-author_rrss {
+.blog-author, .blog-author__page, .blog-author__rrss {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #E56353;
   border-top-color: #6C6E70;
 }
-.blog-author_row {
-  flex-wrap: wrap;
+@media (max-width: 767.98px) {
+  .blog-author, .blog-author__page, .blog-author__rrss {
+    text-align: center;
+  }
+}
+.blog-author__row {
   align-items: center;
 }
-.blog-author_photo {
+.blog-author__photo {
   width: 70%;
   text-align: end;
 }
-.blog-author_name {
+.blog-author__name {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: 700;
   font-size: 30px;
   color: #222323;
 }
-.blog-author_about {
+.blog-author__about {
   font-size: 12px;
   color: #222323;
 }

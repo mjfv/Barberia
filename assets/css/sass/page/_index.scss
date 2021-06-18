@@ -15,38 +15,38 @@
     
 }
 
-
-
-
 .blog-author {
     font-family: $roboto;
     font-weight: $roboto-light;
     font-size: $medium;
     color: $prim-pink;
     border-top-color: $ter-black;
-    &_row {
-        flex-wrap: wrap;
+    @media (max-width: 767.98px) {
+        text-align: center;
+    }
+    &__row {
         align-items: center;
     }
-    &_photo {
+    &__photo {
         width: 70%;
         text-align: end;
     }
-    &_name {
+    &__name {
         font-family: $playfair-display;
         font-style: $playfair-display-italic;
         font-weight: $playfair-display-bold;
         font-size: $x-large;
         color: $sec-black;
     }
-    &_rrss {
+    &__rrss {
         @extend .blog-author;
     }
-    &_page {
+    &__page {
         @extend .blog-author;
     }
-    &_about {
+    &__about {
         font-size: $small;
         color: $sec-black;
+        
     }
 }

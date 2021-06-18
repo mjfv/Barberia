@@ -8,6 +8,11 @@
     font-weight: $roboto-light;
     font-size: $medium;
     color: $ter-black;
+    &__link{
+        color: $prim-pink;
+        text-decoration: none;
+    }
+    
 }
 
 

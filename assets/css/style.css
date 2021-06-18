@@ -10819,6 +10819,10 @@ textarea.form-control-lg {
   font-size: 16px;
   color: #6C6E70;
 }
+.blog-entry__link {
+  color: #E56353;
+  text-decoration: none;
+}
 
 .blog-author, .blog-author_page, .blog-author_rrss {
   font-family: "Roboto", sans-serif;

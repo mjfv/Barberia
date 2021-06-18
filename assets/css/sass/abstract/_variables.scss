@@ -1,0 +1,46 @@
+// First Color Scheme
+$white: #FFF;
+$platinum: #E6E7E7;
+$light-gray: #D1D1D1;
+// Second Color Scheme
+$fuzzy-wuzzy: #E56353;
+$ruddy-pink: #D76C69;
+$spanish-pink: #ECBCBA;
+//Third Color Scheme
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6C6E70;
+
+$prim-white: $white;
+$prim-pink: $fuzzy-wuzzy;
+$prim-black: $eerie-black;
+
+$sec-white: $platinum;
+$sec-pink: $ruddy-pink;
+$sec-black: $raisin-black;
+
+$ter-white: $light-gray;
+$ter-pink: $spanish-pink;
+$ter-black: $nickel;
+
+
+//Variable fonts
+$roboto: 'Roboto', sans-serif;
+$playfair-display: 'Playfair Display', serif;
+
+//Font Weight
+$roboto-regular: 400;
+$roboto-light: 300;
+$playfair-display-regular: 400;
+$playfair-display-bold: 700;
+
+//Font Style
+$playfair-display-italic: italic;
+
+// Font Sizes
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+

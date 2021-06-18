@@ -1,0 +1,27 @@
+@import 'abstract/variables';
+//Bootstrap
+@import 'vendors/bootstrap/functions';
+//
+@import 'vendors/bootstrap/variables';
+@import 'vendors/bootstrap/mixins';
+//Use
+/*
+@import 'vendors/bootstrap/root';
+@import 'vendors/bootstrap/reboot';
+@import 'vendors/bootstrap/type';
+@import 'vendors/bootstrap/images';
+@import 'vendors/bootstrap/containers';
+@import 'vendors/bootstrap//grid';
+@import 'vendors/bootstrap/list-group';
+@import 'vendors/bootstrap/nav';
+@import 'vendors/bootstrap/navbar';
+@import 'vendors/bootstrap/pagination';
+@import 'vendors/bootstrap/buttons'; */
+@import 'vendors/bootstrap/bootstrap.scss';
+@import 'base/reset';
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
+@import 'components/buttons.scss';
+@import 'components/navigation.scss';
+@import 'components/pagination.scss';
+@import 'page/index';

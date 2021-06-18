@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberia</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar__navbar-brand" href="index.html">
+                <img class= "navbar__logo" src="assets/img/logo.png" alt="logo">
+            </a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbar-barber-shop" 
+                aria-controls="navbar-barber-shop" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class= "collapse navbar-collapse" id="navbar-barber-shop">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Horas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!--Inicio de blog-->
+    
+    <header class="header">
+        <img class="header__img img-fluid" src="assets/img/post-image.jpg" alt="corte de pelo">
+        <h1 class="header__title text-center">5 formas de cuidar tu corte de cabello</h1>
+    </header>
+
+    <article class="container blog">
+        <article class="blog-entry">
+            <h6 class="blog-entry_date">12 de abril de 2018</h6>
+            <p class="blog-entry_content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid nam, accusamus doloremque omnis quibusdam dignissimos facilis optio dolorum ipsam sit? Harum sed sit blanditiis suscipit laboriosam eveniet tempora ad.</p>
+            <p class="blog-entry_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti minima autem nulla a laborum, nostrum iusto dolores consequuntur ut. Natus, ut aspernatur harum sit odit incidunt iure optio earum molestias!</p>
+            <p class="blog-entry_content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate illo aut exercitationem, architecto molestias, ad in porro ullam recusandae necessitatibus laudantium cumque, mollitia cum? Debitis amet consectetur aperiam sapiente hic!</p>
+            <p class="blog-entry_content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi inventore, atque nulla dolore explicabo placeat vero ipsum odio consequatur neque blanditiis quisquam. Sapiente doloribus animi accusamus necessitatibus iusto magni quidem.</p>
+            <p class="blog-entry_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit autem consequatur voluptas explicabo similique totam eius enim cumque inventore eveniet, dolore laboriosam, alias harum aspernatur amet architecto, ut laborum quos.</p>
+        </article>
+        <div class="buttons">
+            <button type="button" class="btn btn-secondary my-5">Compartir</button>
+            <button type="button" class="btn btn-secondary my-5">Comentar en Twitter</button>
+        </div>   
+
+        <!--Author-->
+        <section class="blog-author border-top">
+            <div class="row blog-author_row my-5">
+                <div class="col-sm-12 col-md-3">
+                    <img class="blog-author_photo img-thumbnail rounded-circle" src="assets/img/naomi-thai.png" alt="logo">
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <p class="blog-author_name">Naomi Thai</p>
+                    <p class="blog-author_rrss">@Naothai</p>
+                    <p class="blog-author_page">depelos.com</p>
+                </div>
+                <div class="d-none d-sm-none d-md-block col-md-7">
+                    <p class="blog-author_about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius veritatis, delectus vero ut ab magnam repellat vel minima minus similique veniam debitis quo atque tenetur enim, pariatur voluptatem, iure incidunt!</p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <!--Pagination-->
+
+    <div class="pagination-block">
+        <nav aria-label="pag text-center">
+            <ul class="pagination pagination-block__pagination">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Siguiente</a>
+            </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <img class="footer_logo" src="assets/img/logo.png" alt="logo">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script></footer>
+
+</body>
+</html>

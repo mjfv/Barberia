@@ -1,7 +1,7 @@
 .btn-secondary {
     margin-right: 1%;
     &:hover {
-      background: lighten($secondary, 30%);
-      border-color: lighten($secondary, 30%);
+      background: $ter-white;
+      border-color: $ter-white;
     }
 }

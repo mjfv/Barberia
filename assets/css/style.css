@@ -1,16 +1,4 @@
 @charset "UTF-8";
-/*
-@import 'vendors/bootstrap/root';
-@import 'vendors/bootstrap/reboot';
-@import 'vendors/bootstrap/type';
-@import 'vendors/bootstrap/images';
-@import 'vendors/bootstrap/containers';
-@import 'vendors/bootstrap//grid';
-@import 'vendors/bootstrap/list-group';
-@import 'vendors/bootstrap/nav';
-@import 'vendors/bootstrap/navbar';
-@import 'vendors/bootstrap/pagination';
-@import 'vendors/bootstrap/buttons'; */
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -4517,7 +4505,7 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: #0a58ca;
+  color: #6C6E70;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -10764,7 +10752,7 @@ textarea.form-control-lg {
   padding-left: 20%;
   padding-right: 20%;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 576px) {
   .header__title {
     font-size: 30px;
   }
@@ -10784,8 +10772,8 @@ textarea.form-control-lg {
   margin-right: 1%;
 }
 .btn-secondary:hover {
-  background: #b9bbbc;
-  border-color: #b9bbbc;
+  background: #D1D1D1;
+  border-color: #D1D1D1;
 }
 
 .navbar {
@@ -10802,7 +10790,7 @@ textarea.form-control-lg {
 .pagination-block {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background-color: rgba(108, 110, 112, 0.3);
+  background-color: #E6E7E7;
   padding: 3%;
 }
 .pagination-block__pagination {
@@ -10824,15 +10812,15 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
-.blog-author, .blog-author__page, .blog-author__rrss {
+.blog-author, .blog-author__rrss, .blog-author__page {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #E56353;
   border-top-color: #6C6E70;
 }
-@media (max-width: 767.98px) {
-  .blog-author, .blog-author__page, .blog-author__rrss {
+@media (max-width: 768px) {
+  .blog-author, .blog-author__rrss, .blog-author__page {
     text-align: center;
   }
 }
@@ -10843,11 +10831,22 @@ textarea.form-control-lg {
   width: 70%;
   text-align: end;
 }
+@media (max-width: 768px) {
+  .blog-author__photo {
+    width: 40%;
+  }
+}
 .blog-author__name {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: 700;
   font-size: 30px;
+  color: #222323;
+}
+.blog-author__rrss, .blog-author__page {
+  text-decoration: none;
+}
+.blog-author__rrss:hover, .blog-author__page:hover {
   color: #222323;
 }
 .blog-author__about {

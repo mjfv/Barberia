@@ -21,7 +21,7 @@
     font-size: $medium;
     color: $prim-pink;
     border-top-color: $ter-black;
-    @media (max-width: 767.98px) {
+    @media (max-width: 768px) {
         text-align: center;
     }
     &__row {
@@ -30,6 +30,9 @@
     &__photo {
         width: 70%;
         text-align: end;
+        @media (max-width: 768px) {
+            width: 40%;
+        }
     }
     &__name {
         font-family: $playfair-display;
@@ -38,11 +41,12 @@
         font-size: $x-large;
         color: $sec-black;
     }
-    &__rrss {
+    &__rrss, &__page {
         @extend .blog-author;
-    }
-    &__page {
-        @extend .blog-author;
+        text-decoration: none;
+        &:hover {
+            color: $sec-black;
+          }
     }
     &__about {
         font-size: $small;

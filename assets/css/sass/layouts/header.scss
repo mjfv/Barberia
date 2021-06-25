@@ -16,9 +16,10 @@
         color: $prim-white;
         padding-left: 20%;
         padding-right: 20%;
-        @media (max-width: 767.98px) {
-              font-size: $x-large;
-          }
+        @media (max-width: 576px) {
+            font-size: $x-large;
+         // top: 2%;
+        }
         
     }
 
